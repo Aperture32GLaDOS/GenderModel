@@ -1,0 +1,19 @@
+\documentclass[20pt, a4]{article}
+\usepackage{extsizes}
+\usepackage{amsmath}
+\begin{document}
+What is gender? \\
+Firstly, I will define a few terms:
+\begin{enumerate}
+	\item Base gender: a gender which cannot be decomposed i.e. woman cannot be split into any baser genders, but bigender is composed of two other genders
+	\item Association value: a value between -1 and 1, which corresponds to how strongly someone identified with a base gender i.e. 1 is complete association and -1 is complete dissociation, and 0 is apathy
+\end{enumerate}
+Using these terms, I will define gender to be a function which takes a base gender and a time value as a parameter, and returns a pdf which describes the behaviour of the association value. \\
+The reason for the pdf is to account for chaotic genders, and the time value allows for genders to change with time. \\
+I will now outline some genders which are easy to define with this methodology:
+\begin{enumerate}
+	\item Pangender: This simply returns a translation of the dirac delta function such that the peak is stationated at +1 for every for every input
+	\item Agender: Much like pangender, except it returns the dirac delta function without any translation applied
+\end{enumerate}
+The purpose of this methodology is not to prescribe someone a gender which is defined mathematically, but rather to provide a means of empowerment whereby people can represent their own gender identity through mathematics rather than through natural language
+\end{document}
